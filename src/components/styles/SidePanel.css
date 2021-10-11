@@ -1,0 +1,51 @@
+.side-panel{
+    min-width: 7em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: .1em solid #5344c1;
+    /* position: absolute; */
+    left: 0em;
+    background-color: #ffffff;
+}
+
+.side-panel-hidden {
+    margin-left: -7.1em;
+}
+
+.side-panel-title{
+    text-align: center;
+    margin: 0;
+    height: 4.5em;
+}
+
+.side-panel-footer{
+    margin-top: auto;
+}
+
+.side-panel .button-vertical {
+    align-items: center;
+    margin-left: auto;
+    padding: .75em 1.5em;
+    border-width: 0em;
+    background-color:#ffffff;
+}
+
+/* .side-panel .button-vertical svg{
+    stroke: #ccc;
+}
+
+.side-panel .button-vertical.selected svg{
+    stroke: #5344c1;
+} */
+.side-panel .button-vertical svg{
+    filter: invert(90%) sepia(1%) saturate(43%) hue-rotate(314deg) brightness(92%) contrast(92%);
+}
+
+.side-panel .button-vertical.selected svg{
+    filter: invert(26%) sepia(59%) saturate(2445%) hue-rotate(234deg) brightness(87%) contrast(91%);
+}
+
+.side-panel .button-vertical:hover svg{
+    filter: invert(26%) sepia(59%) saturate(2445%) hue-rotate(234deg) brightness(87%) contrast(91%);
+}

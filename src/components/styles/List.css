@@ -1,0 +1,378 @@
+.list-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-container-active {
+    max-width: max-content;
+}
+
+.list-header{
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: .1em solid #5344c1;
+    background-color: #5344c1;
+    border-bottom-width: 0em;
+    color: #ffffff;
+    padding: 0em 1em;
+    justify-content: space-between;
+}
+
+.list-header .button {
+    background-color: #d8d3ff;
+    border-width: 0em;
+    color: #5344c1;
+    font-weight: bold;
+}
+
+.list-title h3 {
+    margin: 0rem;
+}
+
+.left-line {
+    margin-left: 1em;
+    border-left-width: .1em;
+    border-left-style: solid;
+    border-left-color: #ffffff;
+    padding-left: 1em;
+}
+
+.right-line{
+    margin-left: 0em;
+    border-right-width: .1em;
+    border-right-style: solid;
+    border-right-color: #5344c1;
+    padding-right: 1em;
+}
+
+.list-content{
+    padding: 0;
+    flex-grow: 1;
+    margin-bottom: auto;
+    background-color: #ffffff;
+    border: .1em solid #5344c1;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.list-content::-webkit-scrollbar {
+    display: none;
+  }
+
+.list-item{
+    border-bottom: 0.1em solid #5344c1;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-item:last-child{
+    border-bottom-width: 0em;
+}
+
+.list-button{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+    margin-left: 1em;
+}
+
+.move-right{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+}
+
+.move-back{
+    background-color: honeydew;
+    border-color: honeydew;
+    color: #5344c1;
+    margin-bottom: 5rem;
+    margin-top: auto;
+    transform: rotate(180deg);
+}
+
+.list-item.project{
+    height: 8em;
+    margin-right: auto;
+    padding: 0em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list-item.project .button {
+    height: 100%;
+    padding: 0em 1em;
+    border-color: #5344c1;
+    background-color: #d8d3ff;
+    color: #5344c1;
+    border-width: 0em 0em 0em 0.1em;
+}
+
+.list-item.project .project-logo {
+    width: 5em;
+    height: 5em;
+    margin-left: 2em;
+    border: .1em solid #5344c1;
+}
+
+.list-item.project .project-data {
+    margin-left: 1em;
+    color: #5344c1;
+}
+
+.project-data .project-context {
+    font-size: .8em;
+}
+.project-data .project-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#view-projects-list{
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    background-color: rgb(201, 201, 201);
+}
+
+#view-projects-row{
+    margin-left: 0.8rem;
+    margin-right: 0rem;
+    color: gray;
+    border-radius: 2rem;
+    position:static;
+    width: 100%;
+    background-color: honeydew;
+}
+
+.project{
+    display: block;
+    width: 100%;
+}
+
+#link_home{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 201, 201);
+}
+
+.Home-Projects {
+    margin-top: 0.7rem;
+    width: 20rem;
+    height: 1rem;
+    font-family: Roboto;
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.0001rem;
+    color: #5344c1;
+}
+
+.Home-Projects .text-style-1 {
+    font-weight: normal;
+    color: #4a4a4a;
+  }
+  
+.projects-logo{
+    width: 1.3rem;
+    height: 1.4rem;
+    margin: 0.5rem 0.7rem 0.3rem 0.5rem;
+    filter: invert(88%) sepia(9%) saturate(281%) hue-rotate(201deg) brightness(110%) contrast(95%);
+}
+
+.projects-logo-2{
+    width: 1.3rem;
+    height: 1.4rem;
+    margin-left: 46rem;
+    filter: invert(20%) sepia(87%) saturate(3676%) hue-rotate(247deg) brightness(72%) contrast(129%);
+}
+
+
+.consult-logo{
+    width: 1.3rem;
+    height: 1.1rem;
+    margin: 0.08rem 0rem 0rem;
+    border: solid 0.1rem #d8d3ff;
+    filter: invert(88%) sepia(9%) saturate(281%) hue-rotate(201deg) brightness(110%) contrast(95%);
+}
+
+.lupa-logo{
+    width: 1.3rem;
+    height: 1.1rem;
+    margin: 6rem 0rem 6rem 51.563rem;
+    filter: invert(90%) sepia(39%) saturate(357%) hue-rotate(240deg) brightness(115%) contrast(96%);
+}
+
+.lupa-logo-2{
+    width: 1.3rem;
+    height: 1.1rem;
+    margin:  0.5rem 0rem 0.5rem 33.9rem;
+    filter: invert(90%) sepia(39%) saturate(357%) hue-rotate(240deg) brightness(115%) contrast(96%);
+}
+
+.minor-major-logo{
+    width: 1.3rem;
+    height: 1.1rem;
+    margin:  0.5rem 0rem 0.5rem 1rem;
+    filter: invert(90%) sepia(39%) saturate(357%) hue-rotate(240deg) brightness(115%) contrast(96%);
+}
+
+.filter-logo{
+    width: 1.3rem;
+    height: 1.1rem;
+    margin:  0.5rem 0rem 0.5rem 1rem;
+    filter: invert(90%) sepia(39%) saturate(357%) hue-rotate(240deg) brightness(115%) contrast(96%);
+}
+
+.adm-logo{
+    width: 1.6rem;
+    height: 1.4rem;
+    margin: 0.2rem 0.4rem 0.3rem 0.2rem;
+    padding: 0.1rem 0.1rem 0.1rem;
+    filter: invert(100%) sepia(7%) saturate(4433%) hue-rotate(175deg) brightness(103%) contrast(93%);
+}
+
+.amd-ind-logo{
+    margin-left: 0rem;
+    width: 1.6rem;
+    height: 1.4rem;
+    filter: invert(20%) sepia(87%) saturate(3676%) hue-rotate(247deg) brightness(72%) contrast(129%);
+}
+
+#span_1{
+    width: 2rem;
+    height: 1.2rem;
+    margin: 0.4rem 0.2rem 0.3rem 0.1rem;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.002rem;
+    text-align: center;
+    color: #fff;
+  }
+
+#span_2{
+    width: 2rem;
+    height: 1.7rem;
+    margin: 0.7rem 0.2rem 0rem 0.001rem;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.002rem;
+    text-align: center;
+    color: #fff;
+}
+
+.Rectangle {
+    width: 5.75rem;
+    height: 1.75rem;
+    margin: 0.2rem 1rem 0.3rem 0.3rem;
+    padding: 0.18rem 0.4rem 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #5344c1;;
+}
+
+.ADD {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 0.2rem 0.2rem 0.01rem;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+    color: #5344c1;
+}
+  
+.user-name
+{
+    width: 14.5rem;
+    height: 0.2rem;
+    margin: 0.2rem 4.5rem 1rem 0.5rem;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+    color: #4a4a4a;
+}
+
+.Asign{
+    font-family: Roboto;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.001rem;
+    text-align: right;
+    color: #4a4a4a;
+}
+
+.Asign-date{
+    letter-spacing: 0.001rem;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.user-context{
+    margin-left: 1rem;
+    padding: 0em 1em 3em 0em;
+    height: 0rem;
+    font-family: Roboto;
+    font-size: 0.75rem;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+    text-align:end;
+    color: #5344c1;
+}
+
+.list-item.adm{
+    border-bottom: 0.1em solid #5344c1;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    height: 4em;
+    margin-right: auto;
+    padding: 0em 0em 0em 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list-item.adm .button {
+    height: 100%;
+    padding: 0em 1em 0em;
+    border-color: #5344c1;
+    background-color: #d8d3ff;
+    color: #5344c1;
+    border-width: 0em 0em 0em 0.1em;
+}
+
+.title-pag{
+    width: 17em;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.title-pag-projects{
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}

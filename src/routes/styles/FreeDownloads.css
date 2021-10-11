@@ -1,0 +1,23 @@
+.downloads-content{
+    margin-top: 5em;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.download-link{
+    border: 0.1em solid black;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0em 1em 0em 1em;
+    height: 70%;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.download-link > h2{
+    vertical-align: top;
+}

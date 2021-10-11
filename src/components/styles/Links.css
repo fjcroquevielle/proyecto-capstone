@@ -1,0 +1,17 @@
+.links-list {
+    padding-left: 0em;
+    padding-bottom: .5em;
+    font-size: .8em;
+    cursor: context-menu;
+    color: blue;
+}
+
+.links-list span.clickable {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #4a4a4a;
+}
+
+.links-list span.last {
+    font-weight: bold;
+}

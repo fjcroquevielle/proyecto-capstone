@@ -1,0 +1,129 @@
+.header {
+    width: 100%;
+    height: 4.5em;
+    display: flex;
+    position:sticky;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5344c1;
+    color: #ffffff;
+}
+
+.header-logo {
+    background-color: #ffffff;
+    color: #5344c1;
+    width: 7em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header-logo svg {
+    stroke: #5344c1;
+    width: 3.5em;
+}
+ 
+.logo-header {
+    margin-left: auto;
+    margin-right: 1%;
+    height:7em;
+    width: auto;
+    color: #5344c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.logo-header svg {
+    stroke: #ffffff;
+    width: 12em;
+    filter: invert(100%) sepia(8%) saturate(0%) hue-rotate(152deg) brightness(107%) contrast(108%);
+}
+
+/* No usado */
+.header-title {
+    margin-left: auto;
+    margin-right: 1%;
+    height:2em;
+    width: auto;
+}
+
+.header-user-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    margin-right: .5em;
+}
+
+.header-user-info {
+    width: 10em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.header-user-name{
+    font-size: .9em;
+}
+
+.header-user-type {
+    font-size: .8em;
+    color: #d0caff;
+}
+
+.header-user-options-button .button {
+    font-size: 2.5em;
+    border-color: transparent;
+    background-color: transparent;
+    position: relative;
+    border-width: 0;
+}
+
+.vertical-button {
+    writing-mode: vertical-lr;
+}
+
+.header-user-options-button{
+    border-color: transparent;
+    background-color: transparent;
+    position: relative;
+    border-width: 0;
+}
+
+.header-user-options {
+    writing-mode: horizontal-tb;
+    position: absolute;
+    background-color: #d8d3ff;
+    height: auto;
+    z-index: 1;
+    right: 50%;
+    top: 80%;
+    width: 300%;
+}
+
+.header-user-options.hidden {
+    visibility: hidden;
+}
+
+
+.header-user-options.active {
+    visibility: visible;
+}
+
+.header-user-options .button {
+    font-size: 1em;
+    color: black;
+}
+
+.header .button:active{
+    background-color: #d0caff;
+    border-width: 0;
+}
+

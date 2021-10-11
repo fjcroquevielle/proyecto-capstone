@@ -1,0 +1,53 @@
+.redico-content{
+    padding: 0em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-7.1em);
+    transition: all .1s;
+}
+
+.redico-content.hidden{
+    transform: translateX(0em);
+}
+
+.main-content {
+    transition: 0.5s ease-in;
+    max-width: max-content;
+    padding: 1em 1em;
+    flex-grow: 1;
+    overflow-y: hidden;
+    margin-right: 0em;    
+    display: flex;
+    flex-direction: column;
+}
+
+.main-active {
+    transition: 0.5s;
+    min-width: 95%;
+    margin: 0rem 1rem;
+}
+
+.current-content {
+    margin-right: -7.1em;    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content-hidden{
+    margin-right: -7em;
+}
+
+.main-home{
+    transition: ease-in 0.5s;
+    min-width: 90%;
+    padding-left: 3rem;
+}
+
+.main-home-active {
+    transition: ease-in 0.5s;
+    min-width: 90%;
+    padding-left: 0rem;
+}

@@ -1,0 +1,28 @@
+.modal {
+    height: auto;
+    width: auto;
+    top: 20%;
+    left: 40%;
+    border: .1em solid black;
+    background-color: white;
+    position: absolute;
+    padding: 1em;
+    border-radius: .5em;
+    padding: 0em;
+}
+
+.modal-title{
+    border-bottom: .1em solid black;
+}
+
+.modal-content {
+    padding: 1em;
+}
+
+.modal-open {
+    visibility: visible;
+}
+
+.modal-closed {
+    visibility: hidden;
+}
